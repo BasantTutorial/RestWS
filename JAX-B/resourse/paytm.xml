@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paytm:Paytm xmlns:paytm="http://paytm.com/service/online" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://paytm.com/service/online file:///E:/Sriman%20XML/paytm.xsd">
+	<paytm:recharge type="postpaid">
+		<paytm:planeName>FullTalkTime</paytm:planeName>
+		<paytm:paymentType>NetBanking</paytm:paymentType>
+		<paytm:amount>100</paytm:amount>
+	</paytm:recharge>
+	<paytm:User>
+		<paytm:userName>Basanta</paytm:userName>
+		<paytm:password>Dugu143</paytm:password>
+		<paytm:feedBack>
+			<paytm:userName>Basanta</paytm:userName>
+			<paytm:password>Dugu143</paytm:password>
+			<paytm:amount>100</paytm:amount>
+			<paytm:status>Confirm</paytm:status>
+		</paytm:feedBack>
+	</paytm:User>
+</paytm:Paytm>

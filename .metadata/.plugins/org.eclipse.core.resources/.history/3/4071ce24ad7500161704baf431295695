@@ -1,0 +1,33 @@
+package com.aaric.invoker;
+
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.core.Form;
+import javax.ws.rs.core.Response;
+
+public class AllRsInjectionInvoker {
+
+	String URI = "http://localhost:4040/AllRsInjectionWeb/";
+	String message = "";
+
+	ClientBuilder builder = null;
+	Client client = null;
+	Response response = null;
+
+	public String getAll(String name, int id, String dept, double salary) {
+		Form form = new Form();
+		builder = ClientBuilder.newBuilder();
+		client = builder.build();
+		form.param(String.valueOf(salary), "salary");
+		response = client.target(URI).path("/rest").path("/all").path("/get")
+				.queryParam(name, "name").path("/{id}")
+				.resolveTemplate(String.valueOf(id), "id").request()
+				.header(dept, "dept").post(Entity.form(form));
+		if (response.getStatus() == 200) {
+			message = response.readEntity(String.class);
+			return message;
+		}
+		return "Some Technical problem is going on try latter!!!";
+	}
+}

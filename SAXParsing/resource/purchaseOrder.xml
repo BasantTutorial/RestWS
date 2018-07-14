@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE purchaseOrder SYSTEM "E:\Sriman XML\pOrder.dtd">
+<purchaseOrder>
+	<orderItems>
+		<item>
+			<itemCode>abc301</itemCode>
+			<quantity>400</quantity>
+		</item>
+		<item>
+			<itemCode>abc401</itemCode>
+			<quantity>500</quantity>
+		</item>
+	</orderItems>
+</purchaseOrder>

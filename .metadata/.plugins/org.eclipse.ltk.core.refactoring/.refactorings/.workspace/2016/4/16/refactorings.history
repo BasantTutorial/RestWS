@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Multiple_Responce_ContentHandler&apos;" deleteContents="false" description="Delete resource &apos;Multiple_Responce_ContentHandler&apos;" element1="/Multiple_Responce_ContentHandler" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1460709782817"/>
+</session>

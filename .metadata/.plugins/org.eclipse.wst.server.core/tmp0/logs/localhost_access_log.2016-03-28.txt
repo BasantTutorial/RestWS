@@ -1,0 +1,11 @@
+127.0.0.1 - - [28/Mar/2016:14:42:18 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [28/Mar/2016:14:42:23 +0530] "GET /BankServiceClient_MVC/ HTTP/1.1" 404 995
+0:0:0:0:0:0:0:1 - - [28/Mar/2016:14:42:37 +0530] "GET /BankServiceClient_MVC/show.mvc HTTP/1.1" 404 1045
+0:0:0:0:0:0:0:1 - - [28/Mar/2016:14:43:17 +0530] "GET /BankServiceClient_MVC/show.mvc HTTP/1.1" 404 1045
+0:0:0:0:0:0:0:1 - - [28/Mar/2016:14:43:59 +0530] "GET /BankServiceClient_MVC/show.mvc HTTP/1.1" 200 662
+127.0.0.1 - - [28/Mar/2016:22:45:15 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [28/Mar/2016:22:45:23 +0530] "GET /HeaderParameter/ HTTP/1.1" 404 983
+0:0:0:0:0:0:0:1 - - [28/Mar/2016:22:46:56 +0530] "GET /HeaderParameter/rest/getId/generate/Basanta HTTP/1.1" 200 47
+127.0.0.1 - - [28/Mar/2016:22:47:17 +0530] "GET /HeaderParameter/rest/getId/generate/Basanta HTTP/1.1" 200 75
+127.0.0.1 - - [28/Mar/2016:22:48:15 +0530] "GET /HeaderParameter/rest/getId/generate/Basanta HTTP/1.1" 200 75
+127.0.0.1 - - [28/Mar/2016:22:51:11 +0530] "GET /HeaderParameter/rest/getId/generate/Basanta HTTP/1.1" 200 51

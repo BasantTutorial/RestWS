@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="http://paytm.com/service/online" 
+xmlns:paytm="http://paytm.com/service/online">
+
+<xs:element name="Paytm" type="paytm:paytmType"/>
+
+<xs:group name="common">
+	<xs:sequence>
+ <xs:element name="userName" type="xs:string"/>
+<xs:element name="password" type="xs:string"/>
+	</xs:sequence>
+</xs:group>
+
+<xs:complexType name="paytmType">
+<xs:sequence>
+<xs:element name="recharge" type="paytm:rechargeType"/>
+<xs:element name="User" type="paytm:userType"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="rechargeType">
+<xs:sequence>
+<xs:element name="planeName" type="xs:string"/>
+<xs:element name="paymentType" type="xs:string"/>
+<xs:element name="amount" type="xs:double"/>
+</xs:sequence>
+<xs:attribute name="type" type="paytm:multiOptionType" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="userType">
+<xs:sequence>
+<xs:group ref="paytm:common"/>
+<xs:element name="feedBack" type="paytm:feedBackType"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="feedBackType">
+<xs:sequence>
+<xs:group ref="paytm:common"/>
+	<xs:element name="amount" type="xs:double"/>
+     <xs:element name="status" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+
+	<xs:simpleType name="multiOptionType">
+		<xs:restriction base="xs:string">
+           <xs:enumeration value="prepaid"/>	
+           <xs:enumeration value="postpaid"/>	
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,10 @@
+package com.aaric.test;
+
+import com.aaric.invoker.AllRsInjectionInvoker;
+
+public class AllRsInjectionClientTest {
+	public static void main(String[] args) {
+		AllRsInjectionInvoker invoker = new AllRsInjectionInvoker();
+		System.out.println(invoker.getAll("Santosh", 5464, "IT", 50000));
+	}
+}

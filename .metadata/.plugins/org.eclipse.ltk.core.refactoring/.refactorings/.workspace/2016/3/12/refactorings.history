@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SubResource@Path&apos; to &apos;SubResourcePath&apos;" description="Rename resource &apos;SubResource@Path&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SubResource@Path" name="SubResourcePath" stamp="1458322278631" updateReferences="true"/>
+</session>

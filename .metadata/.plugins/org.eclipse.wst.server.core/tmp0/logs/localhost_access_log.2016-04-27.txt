@@ -1,0 +1,7 @@
+127.0.0.1 - - [27/Apr/2016:13:12:49 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [27/Apr/2016:13:12:51 +0530] "GET /Work_With_UriInfo/ HTTP/1.1" 404 987
+0:0:0:0:0:0:0:1 - - [27/Apr/2016:13:16:38 +0530] "GET /Work_With_UriInfo/rest/cab/hydrabad/banglore?cabType=mini HTTP/1.1" 200 137
+127.0.0.1 - - [27/Apr/2016:13:57:06 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [27/Apr/2016:13:57:07 +0530] "GET /WorkingWithSubResourceLocator/ HTTP/1.1" 404 1011
+0:0:0:0:0:0:0:1 - - [27/Apr/2016:13:58:12 +0530] "GET /WorkingWithSubResourceLocator/rest/serviceResource/instance/Order/bike HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [27/Apr/2016:13:58:27 +0530] "GET /WorkingWithSubResourceLocator/rest/serviceResource/instance/Item/bike HTTP/1.1" 200 109

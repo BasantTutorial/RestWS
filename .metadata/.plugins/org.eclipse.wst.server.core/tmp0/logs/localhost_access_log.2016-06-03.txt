@@ -1,0 +1,5 @@
+127.0.0.1 - - [03/Jun/2016:12:00:45 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Jun/2016:12:00:47 +0530] "GET /SubResourceLocator/ HTTP/1.1" 404 989
+0:0:0:0:0:0:0:1 - - [03/Jun/2016:12:02:14 +0530] "GET /rootContext/rest/transaction/sbi/studyLoan HTTP/1.1" 404 1035
+0:0:0:0:0:0:0:1 - - [03/Jun/2016:12:03:27 +0530] "GET /SubResourceLocator/rest/transaction/axis?loanType=STUDYlOAN HTTP/1.1" 200 4
+127.0.0.1 - - [03/Jun/2016:12:04:06 +0530] "GET /SubResourceLocator/rest/transaction/sbi?loanType=StudyLoan HTTP/1.1" 200 4

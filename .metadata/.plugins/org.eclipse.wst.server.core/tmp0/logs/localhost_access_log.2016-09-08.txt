@@ -1,0 +1,11 @@
+127.0.0.1 - - [08/Sep/2016:15:09:57 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:15:10:08 +0530] "GET /AllRsInjectionWeb/ HTTP/1.1" 404 987
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:15:13:42 +0530] "GET /AllRsInjectionWeb/rest/all/123?name=Basanta HTTP/1.1" 500 3657
+127.0.0.1 - - [08/Sep/2016:15:15:42 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:15:16:19 +0530] "POST /AllRsInjectionWeb/rest/all/123?name=Basanta HTTP/1.1" 404 967
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:15:17:32 +0530] "POST /AllRsInjectionWeb/rest/all/get/123?name=Basanta HTTP/1.1" 200 55
+127.0.0.1 - - [08/Sep/2016:15:37:30 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Sep/2016:15:37:32 +0530] "GET /AllRsInjectionWeb/ HTTP/1.1" 404 987
+127.0.0.1 - - [08/Sep/2016:15:45:37 +0530] "POST /AllRsInjectionWeb/rest/all/get/5464?name=Santosh HTTP/1.1" 200 55
+127.0.0.1 - - [08/Sep/2016:15:45:59 +0530] "POST /AllRsInjectionWeb/rest/all/get/5464?name=Santosh HTTP/1.1" 200 55
+127.0.0.1 - - [08/Sep/2016:15:46:46 +0530] "POST /AllRsInjectionWeb/rest/all/get/5464?name=Santosh HTTP/1.1" 200 55

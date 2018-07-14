@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="issueManagementUrl">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="BankServiceClient_MVC"/>
+		</list>
+		<list key="name">
+			<item value="Sample MVC Rest"/>
+		</list>
+		<list key="artifactId">
+			<item value="BankServiceClient_MVC"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1"/>
+		</list>
+	</section>
+</section>
